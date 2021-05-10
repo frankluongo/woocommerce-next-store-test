@@ -1,0 +1,33 @@
+# Application
+backend/
+*.zip
+
+# WP-CLI
+db-sync
+sql-dump-*.sql
+
+# Dotenv
+.env
+.env.*
+!.env.example
+
+# Database volume
+data
+
+# Node Package Manager
+node_modules
+
+# Certs
+certs/
+
+# Logs
+logs/
+
+# Vagrant
+bin
+.vagrant
+
+# Custom
+.DS_Store
+dist
+package-lock.json
